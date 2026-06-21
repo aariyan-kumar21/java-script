@@ -9,7 +9,7 @@ console.table({accountId, gmailId, accountstate, accountMail});
 
 // var is not used. let and const are instead.
 
-// alert("hello") // doesn't work in node it only works in brower.
+// alert("hello") doesn't work in node it only works in brower.
 
 // ---- data types ----
 
