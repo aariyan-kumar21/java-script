@@ -31,3 +31,12 @@ console.log(Object.keys(tinderUser));
 console.log(Object.entries(tinderUser));
 // how to check weather properties exists or not
 console.log(tinderUser.hasOwnProperty('isloggedIn'));
+
+const course = {
+    courseName : "JS",
+    courseInstructor : "Hitesh",
+    price : "999",
+}
+
+const {courseInstructor: teacher} = course
+console.log(teacher);
