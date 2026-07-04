@@ -1,1 +1,1 @@
-# java scritpt
+# java script
