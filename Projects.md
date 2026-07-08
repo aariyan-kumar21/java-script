@@ -1,4 +1,4 @@
-## Project 1
+## Project 1 solution code
 ``` javascript
 const button = document.querySelectorAll('.button')
 const body = document.querySelector('body')
@@ -21,7 +21,7 @@ button.forEach(function(button){
 });
 ```
 
-## Project 2
+## Project 2 solution code
 ``` javascript
 const form = document.querySelector('form')
 
@@ -49,4 +49,14 @@ form.addEventListener('submit',function(event){
     }
   }  
 });
+```
+
+## Project 3 solution code
+```javascript
+const clock = document.getElementById("clock");
+
+setInterval(function() {
+  let date = new Date();
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
 ```
