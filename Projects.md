@@ -20,3 +20,26 @@ button.forEach(function(button){
   });
 });
 ```
+
+## Project 2
+``` text
+const form = document.querySelector('form')
+
+form.addEventListener('submit',function(event){
+  event.preventDefault();
+
+  const height = parseInt(document.querySelector('#height').value);
+  const weight = parseInt(document.querySelector('#weight').value);
+
+  if (height === '' || height < 0 ||isNaN(height) ){
+    results.innerHTML = "Enter a valid Height"
+  }
+  else if (weight === '' || weight < 0 || isNaN(weight) ){
+      results.innerHTML = "Enter a valid Weight"
+    }
+  else{
+    const bmi = (weight / ((height*height) / 10000)).toFixed(2);
+    results.innerHTML = `<span>${bmi}</span>`
+  }  
+});
+```
