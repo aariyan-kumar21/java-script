@@ -1,5 +1,5 @@
 ## Project 1
-``` text
+``` javascript
 const button = document.querySelectorAll('.button')
 const body = document.querySelector('body')
 
@@ -22,7 +22,7 @@ button.forEach(function(button){
 ```
 
 ## Project 2
-``` text
+``` javascript
 const form = document.querySelector('form')
 
 form.addEventListener('submit',function(event){
