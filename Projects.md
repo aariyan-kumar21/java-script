@@ -1,4 +1,5 @@
 ## Project 1 solution code
+There were 4 buttons with different colours so when you click on a button what ever the colour that button has the background would turn into that colour.
 ``` javascript
 const button = document.querySelectorAll('.button')
 const body = document.querySelector('body')
@@ -22,6 +23,7 @@ button.forEach(function(button){
 ```
 
 ## Project 2 solution code
+A form will collect your basic details and calculate your BMI (Body Mass Index) and also check the range of the BMI and Returns BMI and range like under Weight, normal or over Weight.
 ``` javascript
 const form = document.querySelector('form')
 
@@ -52,6 +54,7 @@ form.addEventListener('submit',function(event){
 ```
 
 ## Project 3 solution code
+A Digital clock shows accurate time according to your time zone.
 ```javascript
 const clock = document.getElementById("clock");
 
@@ -61,6 +64,7 @@ setInterval(function() {
 }, 1000);
 ```
 ## Project 4 solution code
+A simple game where you have 10 guesses and you have to guess a number between 1 - 100.
 ```javascript
 let randomNumber = parseInt(Math.random() * 100 + 1);
 
